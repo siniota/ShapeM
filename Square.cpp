@@ -6,7 +6,7 @@ int main(){
     const int W = 8; //number of pixels in a single row
     const int H = 8; //number of pixrls in a single column
 
-    std::ofstream fout("testppm.txt"); //creating a txt file to write to
+    std::ofstream fout("testppm.ppm"); //creating a txt file to write to
     if(fout.fail()) return -1; //close the program if file not created
 
     fout << "P3\n";  //P3 means that we can write using ASCII characters 
